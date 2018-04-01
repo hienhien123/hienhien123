@@ -1,0 +1,102 @@
+/** SlideShow */
+/** Chu de menu */
+.chude{
+	border: 1px outset;
+}
+.chude h5{
+	padding-left: 10px;
+}
+.chude ul{
+	list-style-type: none;
+	padding: 0 20px 0 20px;
+}
+.list-menu li{
+	border: 2px outset;
+	border-bottom: none;
+}
+.list-menu li:last-child{
+	border-bottom: 2px outset;
+}
+.list-menu li a{
+	text-decoration: none;
+}
+.list-menu li:hover{
+	background-color: #e6e6e6;
+}
+.list-menu li a:hover{
+	color: #ff6600;
+}
+/** De Xuat menu */
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 75px;
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 75px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 120px;
+}
+/** info menu de xuat */
+
+.rating
+{
+    color: #777;
+}
+
+.rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+/* End carousel */
+/** Menu right */
