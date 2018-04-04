@@ -2,8 +2,11 @@
 	$connect = mysqli_connect('localhost','root','','db');
 	mysqli_set_charset($connect,"utf8");
 	session_start();
+   
 ?>
+			
 	<!-- 'start thực hiện kiểm tra dữ liệu người dùng nhập ở form đăng nhập' -->
+
 	<?php
 		if(isset($_POST["dangnhap"])){
 			$tk = $_POST["user_name_lg"];
@@ -11,6 +14,16 @@
 			$rows = mysqli_query($connect,"
 				select * from user where user_name = '$tk' and password = '$mk' 
 				");
+			$name = mysqli_query($connect,"
+				select * from user where user_name = '$tk'
+				");
+			while($full_name=mysqli_fetch_assoc($name)){
+			$hienthi = $full_name['full_name'];
+			$admin = $full_name['admin'];
+			$id = $full_name['id'];}
+			$_SESSION['admin'] = $admin;
+			$_SESSION['id_post']=$id;
+			$_SESSION['fullname'] = $hienthi;
 			$count = mysqli_num_rows($rows);
 			if($count==1){
 				$_SESSION["loged"] = true;
@@ -42,17 +55,18 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="headercss.css">
+		<link rel="stylesheet" type="text/css" href="BTL_css/headercss.css">
 	</head>
 	<body>
 		<div class="top">
 			<div class="row">
-		<?php
-			require_once 'vitri.php';
-		?>
-		</div>
+				<?php
+					require_once 'vitri.php';
+				?>
+		</div>	
 	</div>
-		<div class="col-sm-12">
+	<div class="row">
+	<div class="col-md-12">
           <nav class="List-menu navbar navbar-default"> 
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <?php
@@ -62,7 +76,8 @@
               </div>
           </nav>
       </div>
-<form action="" method="post">
+  </div>
+<form action="login.php" method="post">
 <div class="col-md-6 col-md-offset-3">
 	<div class="alert alert-info">
 	  <strong>Đăng nhập</strong>
