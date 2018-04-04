@@ -10,23 +10,18 @@
 <div class="menu"> 
                     <ul style="margin-left: 40px;"> 
                         <li><a href="index.php" class="active"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Trang chủ </a></li>
-                        <li><a href="#"> Giới thiệu </a></li>
-                        <li><a href="#"> Quán ngon </a> 
-                          <ul>
-                              <li><a href="#"> Quán ngon thủ đô </a></li>
-                              <li><a href="#"> Quán ngon 3 miền  </a></li>
-                          </ul>
+                        <li><a href="gioithieu.php"> Giới thiệu </a></li>
+                        <li><a href="quanngon.php"> Quán ngon </a> 
                         </li>
                         <li><a href="#"> Món ăn </a> 
                           <ul>
-                              <li><a href="#"> Món ăn nổi bật </a></li>
-                              <li><a href="#"> Món ăn dân tộc </a></li>
-                              <li><a href="#"> Món ăn giới trẻ </a></li>
-                              <li><a href="#"> Món ăn truyền thống </a></li>
+                              <li><a href="#hapdan"> Món ăn hấp dẫn </a></li>
+                              <li><a href="gioitre.php"> Món ăn giới trẻ </a></li>
+                              <li><a href="truyenthong.php"> Món ăn truyền thống </a></li>
                           </ul>
                         </li>
                         <li> <a href="#"> Tin tức</a> </li>
-                        <li> <a href="#"> Liên hệ </a> </li>
+                        <li> <a href="#contact"> Liên hệ </a> </li>
                         <li style="padding-left: 100px;" ><?php include 'search.php'; ?></li>
                     </ul>
                 </div>
