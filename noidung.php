@@ -4,7 +4,7 @@
 	<title></title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="noidungcss.css">
+	<link rel="stylesheet" type="text/css" href="BTL_css/noidungcss.css">
 </head>
 <body>
 	<!-- Noi dung -->
@@ -38,11 +38,11 @@
 	                </div>  
 					</div><!-- end menu-left-->
 				<div style="width: 30%; float: right; padding-left: 20px;" class="menu-right"> <!-- menu right -->
-					<div class="chude">
+					
 					<?php
 						include 'chude-menu.php';
 					?>
-					</div>
+
 					<hr>
 					<div class="top-review"> <!-- top review -->
 						<div class="panel with-nav-tabs panel-default">
