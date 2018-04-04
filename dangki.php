@@ -24,6 +24,7 @@
 	?>
 	<!-- end thực hiện đăng xuất -->
 	<div class="signin">
+		
 		<?php include 'button-signin.php'; ?>
 
 		<div class="row">
@@ -31,8 +32,8 @@
 			<?php
 				if(isset($_COOKIE["error"])){
 			?>
-			<div class="alert alert-danger">
-			  	<strong>'Có lỗi!'</strong> <?php echo $_COOKIE["error"]; ?>
+			<div style="margin-left: 30px;" class="alert alert-danger">
+			  	<?php echo $_COOKIE["error"]; ?>
 			</div>
 			<?php } ?>
 			<!-- 'end nếu xảy ra lỗi thì hiện thông báo:' -->
