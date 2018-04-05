@@ -3,7 +3,7 @@
         <title></title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="BTL_css/noidungcss.css">
+        <link rel="stylesheet" type="text/css" href="noidungcss.css">
     </head>
     <body>  
             <form action="search.php" method="get" class="navbar-form navbar-left timkiem">
