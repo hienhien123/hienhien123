@@ -3,8 +3,8 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="BTL_css/noidungcss.css">
-	<link rel="stylesheet" type="text/css" href="BTL_css/headercss.css">
+	<link rel="stylesheet" type="text/css" href="noidungcss.css">
+	<link rel="stylesheet" type="text/css" href="headercss.css">
 	<style type="text/css">
 		#Trang ul li{
 			height: 150px;
