@@ -55,7 +55,7 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="BTL_css/headercss.css">
+		<link rel="stylesheet" type="text/css" href="headercss.css">
 	</head>
 	<body>
 		<div class="top">
